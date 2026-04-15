@@ -30,4 +30,8 @@ Het materiaal vind je hier: https://pdok.github.io/leermodule-ogc-api/features/B
 
 Individueel keuze-onderdeel.
 
-Download <a href="https://raw.githubusercontent.com/derekvb/leermodule-ogc-api-pythonanalyse/refs/heads/master/docs/features/Analyseer%20data%20met%20OGC%20API%20-%20Features%20in%20Python.ipynb" download>hier</a> het Jupyter notebook. Open deze in jouw notebookomgeving (bijvoorbeeld Jupyter notebook) en ga aan de slag!
+Download [hier](https://raw.githubusercontent.com/derekvb/leermodule-ogc-api-pythonanalyse/refs/heads/master/docs/features/Analyseer%20data%20met%20OGC%20API%20-%20Features%20in%20Python.ipynb) (rechtermuisknop -> opslaan als) het Jupyter notebook. Open deze in jouw notebookomgeving (bijvoorbeeld Jupyter notebook) en ga aan de slag!
+
+## Opleiding GIS-specialist
+
+Kijk [hier](https://www.has.nl/bedrijfsopleidingen/opleiding-gis-specialist) voor meer informatie over de opleiding GIS-specialist, verzorgd door de HAS green academy en Geon bv. De volgende editie begint op 15 september!
