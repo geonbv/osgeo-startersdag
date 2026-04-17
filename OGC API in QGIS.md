@@ -20,7 +20,7 @@ In de volgende oefeningen gaan we aan de slag met OGC API’s. PDOK heeft onder 
 ### 1.1 OGC API - Features
 
 We gaan aan de slag met de OGC API - Features. Het moderne alternatief voor WFS, die je features (objecten) geeft.  
-PDOK heeft een OGC API voor de BGT beschikbaar gesteld. De landingspagina vind je hier: <https://api.pdok.nl/lv/bgt/ogc/v1_0>
+PDOK heeft een OGC API voor de BGT beschikbaar gesteld. De landingspagina vind je hier: <https://api.pdok.nl/kadaster/bag/ogc/v2/>
 
 #### 1.1.1 In QGIS
 
@@ -38,7 +38,7 @@ We gaan de OGC API Features van de BGT inladen in QGIS.
 
 We gaan nu aan de slag met de OGC API - Tiles. Dit is het moderne alternatief voor WMS en WMTS. Deze geeft geen objecten, maar tiles. Anders dan bij WMS of WMTS zijn dit vector tiles. Dat betekent dat er geen plaatjes, maar kleine gecomprimeerde vectorbestanden over gestuurd worden. Dit is een fundamenteel andere techniek dan tiles als png-afbeeldingen. Dat betekent dat je er veel meer mee kunt. Je kunt bijvoorbeeld zelf de styling aanpassen. En vector tiles schalen netjes mee waardoor het beeld nooit pixelig wordt.
 
-PDOK heeft een OGC API voor de BAG beschikbaar gesteld. Deze staat hier: <https://api.pdok.nl/lv/bag/ogc/v1_0>
+PDOK heeft een OGC API voor de BAG beschikbaar gesteld. Deze staat hier: <https://api.pdok.nl/kadaster/bag/ogc/v2/>
 
 #### 1.2.1 Landing page
 
@@ -59,7 +59,7 @@ Een Tile Matrix Set specificeert hoe de tiles zijn opgebouwd:
 
 Er worden ook verschillende stijlen beschikbaar gesteld.
 
-- Ga naar de Styles-pagina: <https://api.pdok.nl/lv/bag/ogc/v1_0/styles>
+- Ga naar de Styles-pagina: <https://api.pdok.nl/kadaster/bag/ogc/v2/styles>
 - Welke stijlen zijn er beschikbaar voor de BAG?
 
 #### 1.2.2 In QGIS
@@ -70,7 +70,7 @@ Tijd om de BAG vector tiles te bekijken in QGIS.
 
 ![QGIS - Vectortegel tabblad](images/02-qgis-vectortegel-tabblad.png)
 
-- Ga naar <https://api.pdok.nl/lv/bag/ogc/v1_0/tiles> en kopieer de URL **template** van de **WebMercatorQuad** Tile Matrix Set.
+- Ga naar <https://api.pdok.nl/kadaster/bag/ogc/v2/tiles> en kopieer de URL **template** van de **WebMercatorQuad** Tile Matrix Set.
 
 Helaas ondersteunt QGIS op dit moment alleen WebMercator Vector Tiles, en nog geen RD vector tiles, hoewel die dus wel worden aangeboden door PDOK.
 
@@ -128,7 +128,7 @@ Gefeliciteerd, je kent nu de belangrijkste mogelijkheden van de OGC API’s.
 
 #### 1.2.4 OpenAPI specification
 
-Er wordt veel ondersteund in de GUI van QGIS, maar nog niet alles. De OGC API’s bieden heel veel mogelijkheden. Alle mogelijkheden staan op de OpenAPI specification-pagina, en hier kun je die ook meteen in de browser uitproberen: <https://api.pdok.nl/lv/bag/ogc/v1_0/api>  
+Er wordt veel ondersteund in de GUI van QGIS, maar nog niet alles. De OGC API’s bieden heel veel mogelijkheden. Alle mogelijkheden staan op de OpenAPI specification-pagina, en hier kun je die ook meteen in de browser uitproberen: <https://api.pdok.nl/kadaster/bag/ogc/v2/api>  
 Dit kun je ook gebruiken om werkende API-calls op te bouwen voor later gebruik.
 
 Met dank aan Geonovum. Meer oefeningen zijn hier te vinden: <https://github.com/Geonovum/ogc-api-workshops/tree/main/01%20introductie/handson>
