@@ -32,7 +32,7 @@ We gaan de OGC API Features van de BGT inladen in QGIS.
 
 - Gebruik hier de URL <https://api.pdok.nl/lv/bgt/ogc/v1> en maak verbinding.
 - Kies een kaartlaag en voeg deze toe aan je kaartvenster. Tip: zoom ver in zodat niet heel Nederland ingeladen hoeft te worden.
-- Bekijk in de logging de requests die verstuurd worden via <Fn>-12 en vergelijk deze eens met WFS requests. Wat valt je op?
+- Bekijk in de logging de requests die verstuurd worden via Fn-12 en vergelijk deze eens met WFS requests. Wat valt je op?
 
 ### 1.2 OGC API - Tiles
 
